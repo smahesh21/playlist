@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.music-playlist-container {
+  height: 100vh;
+  background-size: cover;
+}
+.top-section {
+  height: 25vh;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+.singer {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #152850;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.songs-playlist-search-container {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.songs-playlist {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button {
+  outline: none;
+  background-color: transparent;
+}
+.search-container {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+.search-element {
+  height: 100%;
+  width: 80%;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.search-icon {
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+.playlist {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-playlist {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  height: 100%;
+  width: 20%;
+}
+.name-genre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.genre {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.duration-delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.duration {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.delete-icon {
+  color: #ffffff;
+}
